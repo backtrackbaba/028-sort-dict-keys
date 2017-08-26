@@ -1,2 +1,7 @@
 def solution(dic):
-    """Enter Code Here"""
+    a = dic.keys()
+    a.sort()
+    return a
+
+dic = {}
+solution(dic)
